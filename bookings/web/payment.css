@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12-Jun-2022, 6:03:14 pm
+    Author     : Tanuku Swetha
+*/
+form{
+    width:320px;
+    height:450px;
+    border:1px solid grey;
+    left:40%;
+    top:15%;
+    position:absolute;
+    padding:15px 10px;
+    border-radius:5px;
+    background-color: rgb(231,231,231);
+    
+}
+h2{
+    text-align: center;
+    
+}
+img{
+    width:50px;
+    height:30px;
+    display:inline-flex;
+}
+p{
+    font-weight:bold;
+    
+}
+input[type='date'],
+input[type='password']{
+    height:25px;
+    font:16px;
+}
+input[type='tel'],
+input[type='text']{
+    width:95%;
+    height:25px;
+}
+input[type='submit']{
+    width:100%;
+    margin:15px 0;
+    height:40px;
+    background-color: #55ae4d;
+    border:none;
+    border-radius:5px;
+    font-size:20px;
+    color:white;
+}
+input[type='submit']:hover{
+    cursor:pointer;
+    background-color: #6bca8b;
+}
+.row{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.row .no1{
+    flex-basis: 30%;
+}
+
+
+
